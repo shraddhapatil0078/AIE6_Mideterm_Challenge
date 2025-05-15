@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Development files
+app.py.backup
+app copy.py
+uv.lock
+pyproject.toml
+
+# Data and model files
+finetuned_arctic_FT/
+checkpoints/
+*.jsonl
+test_dataset.jsonl
+val_dataset.jsonl
+train_dataset.jsonl
+
+# IDE and other files
+.chainlit/
+.files/
+.data/
+.vscode/
+.idea/
+*.swp
+*.swo 
